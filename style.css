@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,500;1,400&family=Roboto+Slab:wght@300;400;500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* body {
+    background-color: aqua;
+} */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+}
+
+.Services {
+    height: 100vh;
+}
+
+.card-one {
+    width: 400px;
+    height: 280px;
+    box-shadow: grey 12px 7px 40px -22px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    margin: 8px;
+    border-radius: 8px;
+    padding: 30px 20px 15px 40px;
+    overflow: hidden;
+    /* transition: all 0.4s; */
+    /* display: flex; */
+    /* align-items: center;
+    justify-content: center; */
+}
+
+.card-one h1 {
+    color: rgb(23, 26, 23);
+    font-family: 'Karla', sans-serif;
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+    font-weight: 100;
+    margin: 10px 0px;
+}
+
+.icon i {
+    font-size: 50px;
+    /* background-color: rgb(245, 19, 132); */
+    border: none;
+}
+
+.div {
+    margin-top: 50px;
+}
+
+.btn {
+    text-decoration: none;
+    padding: 8px;
+    background-color: rgb(63, 61, 61);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.btn:hover {
+    border: 1px solid rgb(63, 61, 61);
+    background-color: transparent;
+    color: black;
+    border-radius: 4px;
+}
+
+.card-one:hover {
+    border: 1px solid black;
+    display: block;
+    transition: all 1.4s;
+    background-color: rgb(50, 247, 237);
+}
+
+.heading h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading {
+    margin: 20px 0;
+}
+
+
+/*  */
+
+@media screen and (max-width:768px) {
+    .container {
+        display: table-row;
+    }
+    .card-one {
+        margin: 30px 45px;
+        align-items: center;
+        width: 660px;
+        justify-content: center;
+    }
+}
+
+@media screen and(max-width:1100px) {
+    .container {
+        display: table-row;
+    }
+    .card-one {
+        margin: 30px 25px;
+        align-items: center;
+        width: 500px;
+        justify-content: center;
+    }
+}
